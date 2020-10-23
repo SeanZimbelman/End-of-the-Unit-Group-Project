@@ -90,7 +90,7 @@ footer .left{
 
 .vegan{
     width: 400px;
-    border-bottom: solid rgb(0, 0, 0) ;
+    border-bottom: solid rgb(0, 0, 0) 8px ;
 }
 
 .coffee{
