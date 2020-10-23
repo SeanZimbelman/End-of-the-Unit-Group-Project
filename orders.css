@@ -60,7 +60,7 @@ footer{
     justify-content: space-between;
     border-top: var(--border);
     font-size: 2em;
-    position: absolute;
+    margin-top: 20px;
     bottom: 5px;
     width: 100%;
     flex-direction: row;
@@ -81,4 +81,38 @@ footer .cred{
 
 footer .left{
     border-left: var(--border);
+}
+
+/* Specific Styles */
+
+/* Order */
+
+.order{
+    margin: 25px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.order p{
+    font-size: 2.5em;
+}
+
+/* credentials */
+
+.credentials{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.credentials .part{
+    margin-top: 15px;
+}
+
+/* submit */
+
+.submit{
+    text-align: center;
+    justify-self: center;
 }
