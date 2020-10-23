@@ -60,7 +60,7 @@ footer{
     justify-content: space-between;
     border-top: var(--border);
     font-size: 2em;
-    position: absolute;
+    margin-top: 20px;
     bottom: 5px;
     width: 100%;
     flex-direction: row;
