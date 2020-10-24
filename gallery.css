@@ -112,10 +112,12 @@ footer .left{
 
 /* specific images row one */
 
- 
-
-.coffee{
-    grid-area: coffee;
+.vegan{
+    grid-area: vegan;
+    grid-column: 1 / 2;
+}
+.pokemon{
+    grid-area: pokemon;
     grid-column: 2 / 3;
 }
 
@@ -131,8 +133,8 @@ footer .left{
 
 /* specific images row two */
 
-.pokemon{
-    grid-area: pokemon;
+.coffee{
+    grid-area: coffee;
     grid-column: 1 / 2;
 }
 
