@@ -1,7 +1,8 @@
 /* Set up */
 :root{
-    --color-text: #001d53;
+    --color-text: #003a00;
     --border: 4px solid var(--color-text);
+    --border-black: 4px solid #000;
 }
 
 html{
@@ -59,7 +60,7 @@ footer{
     justify-content: space-between;
     border-top: var(--border);
     font-size: 2em;
-    position: absolute;
+    margin-top: 20px;
     bottom: 5px;
     width: 100%;
     flex-direction: row;
@@ -80,4 +81,88 @@ footer .cred{
 
 footer .left{
     border-left: var(--border);
+}
+
+
+/* Generic Styles/Typograghy */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px auto;
+    max-width: 85rem;
+    width: 80%;
+
+    grid-template-areas: 
+    "head head"
+    "pric spec"
+    "comt comt";
+}
+
+.border{
+    border: var(--border-black);
+}
+
+.border h3{
+    border-bottom: var(--border-black);
+}
+
+
+/* Specific Styles */
+
+/* header */
+
+.header{
+    grid-area: head;
+    justify-items: center;
+    margin: 20px auto;
+    grid-column: 1 / -1;
+    display: flex;
+    
+}
+
+.header h1{
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+/* Prices */
+
+.prices{
+    grid-area: pric;
+    justify-items: center;
+    margin: 20px auto;
+    grid-column: 1 / 2;
+    display: flex;
+    border: 1px solid #000;
+    flex-direction: column;
+}
+
+.prices h3{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.prices div{
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+/* Request */
+
+.request{
+    grid-area: spec;
+    grid-column: 2 / -1;
+    display: flex;
+    margin: 20px auto;
+}
+
+.request h3{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.request div{
+    margin: 0 auto;
+    font-size: 1.5rem;
 }
