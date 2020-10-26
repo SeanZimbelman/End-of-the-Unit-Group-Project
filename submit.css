@@ -83,104 +83,10 @@ footer .left{
     border-left: var(--border);
 }
 
-/* Generic Styles/Typograghy */
+/* Submit message */
 
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    margin: 0 auto;
-    max-width: 85rem;
-    width: 80%;
-
-    grid-template-areas: 
-    "logo logo logo logo"
-    "poke pokemon cookie kirby"
-    "coffee icecream caramel vegan"
-    "boba boba boba boba";
+.submit{
+    font-size: 10rem;
+    margin: 10%;
+    border: var(--border)
 }
-
-/* Specific Styles */
-
-/* Logo */
-
-.logo{
-    grid-area: logo;
-    justify-items: center;
-    grid-column: 1 / -1;
-}
-
-.logo img{
-    align-self: center;
-    display: flex;
-    width: 25%;
-    margin: 10px auto;
-}
-
-/* general images */
-
-.images{
-    align-self: center;
-    width: 90%;
-    border: var(--border-black);
-    margin: 10px 5%
-}
-
-/* specific images row one */
-
-.poke{
-    grid-area: poke;
-    grid-column: 1 / 2;
-}
-
-.pokemon{
-    grid-area: pokemon;
-    grid-column: 2 / 3;
-}
-
-.cookie{
-    grid-area: cookie;
-    grid-column: 3 / 4;
-}
-
-.kirby{
-    grid-area: kirby;
-    grid-column: 4 / -1;
-}
-
-/* specific images row two */
-
-.coffee{
-    grid-area: coffee;
-    grid-column: 1 / 2;
-}
-
-.icecream{
-    grid-area: icecream;
-    grid-column: 2 / 3;
-}
-
-.caramel{
-    grid-area: caramel;
-    grid-column: 3 / 4;
-}
-
-.vegan{
-    grid-area: vegan;
-    grid-column: 4 / -1;
-}
-
-/* specific images row three */
-
-.boba{
-    grid-area: boba;
-    grid-column: 1 / -1;
-    width: 25%;
-    align-self: center;
-    margin: 10px auto
-}
-
-
-
-
-

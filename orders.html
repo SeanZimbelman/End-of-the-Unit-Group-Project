@@ -10,9 +10,9 @@
     <meta property="og:image" content="">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-i">
 
-    <title></title>
-    <link rel="shortcut icon" href="Pizza.png" type="image/x-i">
+    <title>Orders</title>
 </head>
 
 <body>
@@ -22,10 +22,29 @@
         <a href="services.html" class="left">Services</a>
         <a href="orders.html" class="left">Orders</a>
     </header>
-    <form action="data.json" method="POST">
+    <form action="submit.html" method="POST">
         <fieldset class="order">
-            <p> bla blah blah</p>
+            <p>Food</p>
+            <input type="checkbox" id="pokecookies" name="Food">
+            <label for="pokecookies">Pokecookies</label><br>
+            <input type="checkbox" id="pancakes" name="Food">
+            <label for="pancakes">Pancakes</label><br>
+            <input type="checkbox" id="bread-bowl" name="Food">
+            <label for="bread-bowl">Bread Bowl</label><br>
+            <input type="checkbox" id="coffie-ice-cream" name="Food">
+            <label for="coffie-ice-cream">Coffie Ice Cream</label><br>
+            <input type="checkbox" id="kirby-cookies" name="Food">
+            <label for="kirby-cookies">Kirby Cookies</label><br>
             
+            <p>Drinks</p>
+            <input type="checkbox" id="jelly-coffee" name="Drinks">
+            <label for="jelly-coffee">Jelly Coffee</label><br>
+            <input type="checkbox" id="caremel-coffee" name="Drinks">
+            <label for="caremel-coffee">Caremel Coffee</label><br>
+            <input type="checkbox" id="coffee" name="Drinks">
+            <label for="coffee">Coffee</label><br>
+            <input type="checkbox" id="boba-tea" name="Drinks">
+            <label for="boba-tea">Boba Tea</label><br>
         </fieldset>
         <div class="credentials">
             <div class="part">
@@ -45,7 +64,7 @@
         </div>
 
         <div class="submit">
-            <button type="submit" id="submit" value="submit">Submit!</button>
+            <button type="submit" id="submit" value="submit" href="submit.html">Submit!</button>
         </div>
     </form>
     <footer>
