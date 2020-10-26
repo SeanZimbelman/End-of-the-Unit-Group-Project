@@ -140,9 +140,8 @@ footer .left{
 .logo img{
     align-self: center;
     display: flex;
-    width: 50%;
+    width: 25%;
     margin: 10px auto;
-    border: var(--border-black);
 }
 
 /* About us */
