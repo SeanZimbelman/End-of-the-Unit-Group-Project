@@ -71,6 +71,13 @@ footer p{
     text-align: center;
 }
 
+footer a{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
 footer .copy{
     font-family: initial;
 }
