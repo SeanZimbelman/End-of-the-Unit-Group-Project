@@ -22,7 +22,7 @@
         <a href="services.html" class="left">Services</a>
         <a href="orders.html" class="left">Orders</a>
     </header>
-    <form action="submit.html" method="POST">
+    <form action="submit.html" method="POST" class="wrapper">
         <fieldset class="order">
             <p>Food</p>
             <input type="checkbox" id="pokecookies" name="Food">
@@ -51,18 +51,15 @@
                 <lable for="name">User Name</lable>
                 <input type="text" id="name" name="user.name">
             </div>
-
             <div class="part">
                 <label for="email">Enter your email:</label>
                 <input type="email" id="email" name="user.email">
             </div>
-
             <div class="part">
                 <lable for="Special">Special Instructions:</lable><br>
                 <textarea name="user.spec" id="Special" cols="30" rows="10">Type here</textarea>
             </div>
         </div>
-
         <div class="submit">
             <button type="submit" id="submit" value="submit"><a href="submit.html">Submit!</a></button>
         </div>
