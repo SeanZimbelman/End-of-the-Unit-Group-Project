@@ -104,7 +104,7 @@ footer .left{
     "logo logo logo logo"
     "poke pokemon cookie kirby"
     "coffee icecream caramel vegan"
-    "boba boba boba boba";
+    "boba vid vid vid";
 }
 
 /* Specific Styles */
@@ -181,10 +181,19 @@ footer .left{
 
 .boba{
     grid-area: boba;
-    grid-column: 1 / -1;
-    width: 25%;
+    grid-column: 1 / 2;
     align-self: center;
     margin: 10px auto
+}
+
+/* video */
+
+.video{
+    grid-area: vid;
+    grid-column: 2 / -1;
+    align-self: center;
+    margin: 10px auto;
+    display: flex;
 }
 
 
