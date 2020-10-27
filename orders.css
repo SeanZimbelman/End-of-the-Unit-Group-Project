@@ -144,3 +144,12 @@ footer .left{
     text-align: center;
     justify-self: center;
 }
+
+.submit a{
+    width: 100%;
+    text-align: center;
+    color: var(--color-text);
+    text-decoration: none;
+    border: 3px solid #000;
+    background-color: #fff;
+}
